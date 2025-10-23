@@ -1,0 +1,64 @@
+base: blendos-base
+
+packages:
+  # i3 Window Manager and utilities
+  - i3-wm
+  - i3status
+  - i3lock
+  - dmenu
+  - rofi
+  - picom
+  - feh
+  - xterm
+  - lxappearance
+  - nitrogen
+
+  # Display manager (Ly)
+  - ly
+
+  # Network and Wi-Fi
+  - networkmanager
+  - network-manager-applet
+  - wpa_supplicant
+  - wireless_tools
+  - iw
+
+  # Sound
+  - pulseaudio
+  - pavucontrol
+  - alsa-utils
+
+  # USB and hardware support
+  - usbutils
+  - udisks2
+  - gvfs
+  - gvfs-mtp
+  - gvfs-gphoto2
+  - gvfs-smb
+
+  # Power management
+  - acpi
+  - tlp
+  - xfce4-power-manager
+
+  # File manager
+  - thunar
+  - thunar-archive-plugin
+  - file-roller
+
+  # Fonts and visuals
+  - ttf-dejavu
+  - ttf-font-awesome
+  - noto-fonts
+  - xorg
+  - xorg-xinit
+
+  # System tools
+  - htop
+  - neofetch
+  - git
+  - curl
+  - unzip
+  - sudo
+
+containers: []
