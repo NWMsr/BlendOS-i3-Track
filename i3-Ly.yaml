@@ -12,6 +12,13 @@ packages:
   - xterm
   - lxappearance
   - nitrogen
+  - dunst                # Notification daemon
+  - xclip                # Clipboard support
+
+  # Display server and session
+  - xorg
+  - xorg-server
+  - xorg-xinit
 
   # Display manager (Ly)
   - ly
@@ -45,13 +52,13 @@ packages:
   - thunar
   - thunar-archive-plugin
   - file-roller
+  - tumbler               # Thumbnail support for Thunar
 
   # Fonts and visuals
   - ttf-dejavu
   - ttf-font-awesome
   - noto-fonts
-  - xorg
-  - xorg-xinit
+  - noto-fonts-emoji
 
   # System tools
   - htop
@@ -60,5 +67,7 @@ packages:
   - curl
   - unzip
   - sudo
+  - bash
+  - shadow               # For user account management
 
 containers: []
